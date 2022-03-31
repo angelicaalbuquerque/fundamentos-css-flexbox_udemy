@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Criando um Container com Flexbox</title>
+
+    <style>
+      .container {
+        background-color: purple;
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* flex-wrap: wrap; */
+        align-content: center;
+      }
+
+      .item {
+        background-color: orange;
+
+        border: 2px solid rgb(230, 195, 84);
+        border-radius: 10px;
+        font-size: 2rem;
+        color: white;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">
+        Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Perspiciatis provident fugiat pariatur ex
+        beatae similique est, praesentium hic odio rerum enim alias obcaecati
+        qui dolor placeat aut unde. Optio, voluptatibus.
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor sit amet
+      </div>
+      <div class="item">3</div>
+    </div>
+  </body>
+</html>
